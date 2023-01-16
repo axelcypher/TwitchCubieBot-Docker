@@ -1,0 +1,8 @@
+version: '3.1'
+
+services:
+  TwitchCubieBot:
+    image: axelcypher/TwitchCubieBot
+    build: .
+    volumes:
+      - '~/TwitchCubieBot:/app/TwitchCubieBot/settings.txt'  
