@@ -16,4 +16,4 @@ RUN git clone https://github.com/axelcypher/TwitchCubieBot-Docker.git && \
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT 
+ENTRYPOINT ./run.sh 
